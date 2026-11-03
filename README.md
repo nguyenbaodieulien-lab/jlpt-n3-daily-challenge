@@ -1,56 +1,20 @@
-# JLPT N3 Daily Challenge — Deployment starter
+# JLPT N3 Daily Challenge – GitHub Pages
 
-## Current status
+## Setup (no terminal required)
+1. Extract the ZIP, then upload its **contents** to the root of `nguyenbaodieulien-lab/jlpt-n3-daily-challenge`. Include the hidden `.github` directory and the `scripts` and `data` directories. Use GitHub's Add file > Upload files. If the hidden folder cannot be uploaded, create `.github/workflows/daily-publish.yml` using Add file > Create new file, and paste the file contents.
+2. Check Settings > Pages: Deploy from a branch, `main`, `/(root)`.
+3. Open the game URL and check the header shows `Chương 1 · Bài 1` and the published date.
+4. In Actions, open `Publish JLPT N3 Daily Lesson`, select Run workflow, enter `2026-11-04` to test the initial reviewed bank, and run it. This commits `data/daily.json` if it changes.
+5. In Settings > Actions > General > Workflow permissions, grant **Read and write permissions** if the workflow fails on `git push` with HTTP 403 (subject to your account/organization policy).
 
-- `index.html` is the previously created v3 game. It runs on GitHub Pages.
-- The existing game stores progress locally and exchanges result codes. **It is not yet connected to Firebase.**
-- `data/lesson-plan.json` is a planning template, **not a working automatic lesson loader**.
-- `firebase/firestore.rules` is a proposed rules starter, **not deployed**. These rules restrict fields and permit one create per anonymous UID per challenge, but do NOT prove scores were earned honestly. Anonymous accounts can be recreated.
-- No Outlook email has been sent and no public URL has been created.
+## Daily operation
+The GitHub Actions cron `0 23 * * *` runs at **08:00 Japan time the next calendar day** (UTC 23:00 previous day). GitHub scheduled workflows can be delayed; this is not a guaranteed exact 08:00 execution. Every 6-day cycle: 5 lessons and 1 review. On a day with no reviewed bank, the workflow **fails safely and does not replace the previous published lesson**. You must add and review the next bank before that date. The game displays the publication date so learners can spot stale content.
 
-## Step 1: GitHub Pages
+Bank naming: `data/banks/chapter-01-lesson-02.json` through lesson 05, then `data/banks/chapter-01-review.json`; repeat through chapter 12. Copy the structure of `chapter-01-lesson-01.json`, set `chapter`, `lesson`, `title`, `reviewed` (only after checking readings/answers), and provide at least 10 original reviewed vocabulary records. For review banks use `"lesson":"review"`. `reviewed: true` is a manual editorial assertion, **not** automated fact checking.
 
-1. Sign in to https://github.com/ using an account permitted by your organization's IT policies.
-2. Create a repository named `jlpt-n3-daily-challenge` (public repo on GitHub Free).
-3. Upload the contents of this folder, retaining `index.html` at repository root.
-4. Open **Settings > Pages > Build and deployment > Deploy from a branch**.
-5. Choose `main` and `/(root)`, then Save.
-6. Open the displayed site URL, typically `https://YOUR_USERNAME.github.io/jlpt-n3-daily-challenge/`.
-7. Test on both desktop and phone, especially Japanese voice selection and the result-code exchange.
-
-## Step 2: Firebase (future integration)
-
-1. Open https://console.firebase.google.com/ and create a project if permitted by IT.
-2. Add a Web app, then enable Firestore and Firebase Authentication > Sign-in method > Anonymous.
-3. Add the GitHub Pages domain to Firebase Authentication authorized domains if required.
-4. Review the sample `firebase/firestore.rules` and publish approved rules.
-5. A developer must integrate Firebase SDK into `index.html`, implement authentication, write scores and read rankings. **This starter does not implement that integration.**
-6. For trustworthy ranked competition, validate answer submissions on a server/Cloud Function; Firestore rules alone cannot verify scores or prevent replay/multiple anonymous accounts.
-7. Never put Firebase service-account private keys or Outlook credentials in the public repository. Firebase web app configuration is public by design; security comes from rules and backend checks.
-
-## Step 3: Daily content workflow
-
-- Cycle: Chapter 1 Lesson 1–5, then Chapter 1 review, then Chapter 2 Lesson 1–5, review, etc.
-- At 08:00 Asia/Tokyo, prepare or review 20 original questions; ensure Kanji readings and answer keys are verified.
-- The currently scheduled ChatGPT task prepares content but **cannot automatically commit to GitHub or update the game**.
-- To publish today: edit the game question data and upload updated `index.html` to the repository; GitHub Pages republishes after the commit.
-- Future automation needs a trusted content generator, validation step, and GitHub Actions or authorized GitHub API access.
-- Respect JTest's site terms; do not copy entire question banks without permission.
-
-## Step 4: Manual Outlook invitation
-
-Only after the website works:
-
-To: nafarina.nhazmee@murata.com
-Subject: JLPT N3 Daily Challenge — Let's study together!
-
-Hi,
-
-I'd like to invite you to our JLPT N3 Daily Challenge! We'll practice one lesson each day and have a chapter review after every five lessons. We can compare our scores and improve together.
-
-Game link: [INSERT VERIFIED GITHUB PAGES URL]
-Today's lesson: [INSERT LESSON]
-
-See you on the leaderboard!
-
-**Do not send until the URL has been verified.**
+## Limitations and safety
+- The initial included bank contains 20 previously authored example terms for Chapter 1 Lesson 1. No claim is made that later JTest lessons have been collected. This package does **not** scrape JTest, automatically generate new JLPT questions, or copy protected exercises. Use the site as a reference subject to its terms; author and check your own questions.
+- The game still uses local browser storage and share/import codes; Firebase real-time leaderboard **is not implemented**.
+- This repository is public: **never commit email addresses, passwords, Firebase service credentials, Outlook tokens, or secrets**.
+- No email is sent by this workflow. Outlook invitations remain manual and should only be sent after verifying the public game link.
+- The existing game has a fixed 10-question round and vocabulary-based contexts. Some vocabulary entries may need expert review; synthesized pronunciation still depends on installed Japanese voices.
