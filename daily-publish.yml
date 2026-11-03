@@ -1,0 +1,44 @@
+name: Publish JLPT N3 Daily Lesson
+on:
+  schedule:
+    # 23:00 UTC = 08:00 JST the following day (Japan has no DST)
+    - cron: '0 23 * * *'
+  workflow_dispatch:
+    inputs:
+      jst_date:
+        description: 'Optional JST date YYYY-MM-DD for testing (leave empty for today)'
+        required: false
+        type: string
+permissions:
+  contents: write
+concurrency:
+  group: jlpt-daily-publish
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate and publish pre-reviewed bank
+        env:
+          JST_DATE: ${{ inputs.jst_date }}
+        run: |
+          if [ -n "$JST_DATE" ]; then
+            python scripts/publish_daily.py --date "$JST_DATE"
+          else
+            python scripts/publish_daily.py
+          fi
+      - name: Commit published lesson only when changed
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/daily.json
+          if git diff --cached --quiet; then
+            echo 'No lesson changes.'
+          else
+            git commit -m 'Publish JLPT N3 daily lesson'
+            git push
+          fi

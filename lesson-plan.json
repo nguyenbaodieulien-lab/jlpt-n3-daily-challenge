@@ -1,0 +1,12 @@
+{
+  "source": "https://jtest.net/tu-vung-n3",
+  "timezone": "Asia/Tokyo",
+  "startDate": "2026-11-04",
+  "status": "planning-only",
+  "note": "Question banks must be authored and reviewed before publication; current game is not connected to this JSON.",
+  "cycle": ["lesson-1", "lesson-2", "lesson-3", "lesson-4", "lesson-5", "chapter-review"],
+  "chapters": 12,
+  "lessonsPerChapter": 5,
+  "dailyQuestions": 20,
+  "timeLimitMinutes": 15
+}
