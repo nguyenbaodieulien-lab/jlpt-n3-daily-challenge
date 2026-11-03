@@ -1,0 +1,130 @@
+{
+  "chapter": 1,
+  "lesson": 5,
+  "title": "Là người như thế nào?",
+  "source": "https://jtest.net/tu-vung-n3/chapter-1/section-5",
+  "reviewed": true,
+  "reviewNote": "Original authored example sentences; lexical entries cross-checked with source; further native-speaker review recommended.",
+  "words": [
+    {
+      "w": "名字",
+      "r": "みょうじ",
+      "m": "họ",
+      "syn": "姓",
+      "sr": "せい",
+      "note": "名字 và 姓 đều chỉ họ; 苗字 là cách viết khác.",
+      "ex": "申込書に名字を記入してください。",
+      "vi": "Hãy điền họ vào đơn đăng ký.",
+      "blank": "申込書に___を記入してください。",
+      "answer": "名字"
+    },
+    {
+      "w": "性別",
+      "r": "せいべつ",
+      "m": "giới tính",
+      "syn": "性",
+      "sr": "せい",
+      "note": "性別 chỉ phân loại giới tính; 性 có nhiều nghĩa khác.",
+      "ex": "この調査は性別を問わず参加できる。",
+      "vi": "Khảo sát này mở cho mọi giới tính.",
+      "blank": "この調査は___を問わず参加できる。",
+      "answer": "性別"
+    },
+    {
+      "w": "年齢",
+      "r": "ねんれい",
+      "m": "tuổi tác",
+      "syn": "年",
+      "sr": "とし",
+      "note": "年齢 trang trọng hơn 年 trong nghĩa tuổi.",
+      "ex": "参加者の年齢はさまざまだ。",
+      "vi": "Độ tuổi người tham gia rất đa dạng.",
+      "blank": "参加者の___はさまざまだ。",
+      "answer": "年齢"
+    },
+    {
+      "w": "高齢",
+      "r": "こうれい",
+      "m": "cao tuổi",
+      "syn": "年を取っていること",
+      "sr": "としをとっていること",
+      "note": "高齢 thường dùng trong ngữ cảnh trang trọng.",
+      "ex": "高齢の方にも使いやすい設計だ。",
+      "vi": "Thiết kế dễ sử dụng cả với người cao tuổi.",
+      "blank": "___の方にも使いやすい設計だ。",
+      "answer": "高齢"
+    },
+    {
+      "w": "老人",
+      "r": "ろうじん",
+      "m": "người già",
+      "syn": "お年寄り",
+      "sr": "おとしより",
+      "note": "お年寄り thường mềm mại và lịch sự hơn 老人.",
+      "ex": "公園で老人が散歩していた。",
+      "vi": "Có một người già đang đi dạo trong công viên.",
+      "blank": "公園で___が散歩していた。",
+      "answer": "老人"
+    },
+    {
+      "w": "幼児",
+      "r": "ようじ",
+      "m": "trẻ nhỏ, ấu nhi",
+      "syn": "小さな子ども",
+      "sr": "ちいさなこども",
+      "note": "幼児 chỉ trẻ nhỏ, khác với 乳児 là trẻ sơ sinh.",
+      "ex": "幼児向けの本を選んだ。",
+      "vi": "Tôi chọn sách dành cho trẻ nhỏ.",
+      "blank": "___向けの本を選んだ。",
+      "answer": "幼児"
+    },
+    {
+      "w": "出身",
+      "r": "しゅっしん",
+      "m": "quê quán, xuất thân",
+      "syn": "生まれ育った所",
+      "sr": "うまれそだったところ",
+      "note": "出身 không nhất thiết trùng nơi sinh.",
+      "ex": "私はベトナムのダナン出身です。",
+      "vi": "Tôi quê ở Đà Nẵng, Việt Nam.",
+      "blank": "私はベトナムのダナン___です。",
+      "answer": "出身"
+    },
+    {
+      "w": "生まれ",
+      "r": "うまれ",
+      "m": "nơi sinh; sự ra đời",
+      "syn": "出生",
+      "sr": "しゅっしょう",
+      "note": "生まれ là cách nói thông thường; 出生 trang trọng.",
+      "ex": "彼は京都生まれだ。",
+      "vi": "Anh ấy sinh ở Kyoto.",
+      "blank": "彼は京都___だ。",
+      "answer": "生まれ"
+    },
+    {
+      "w": "育ち",
+      "r": "そだち",
+      "m": "nơi lớn lên, cách nuôi dạy",
+      "syn": "成長した環境",
+      "sr": "せいちょうしたかんきょう",
+      "note": "育ち có thể nói về nơi lớn lên hoặc nền nếp nuôi dạy.",
+      "ex": "彼女は東京育ちです。",
+      "vi": "Cô ấy lớn lên ở Tokyo.",
+      "blank": "彼女は東京___です。",
+      "answer": "育ち"
+    },
+    {
+      "w": "行儀",
+      "r": "ぎょうぎ",
+      "m": "phép tắc, cách cư xử",
+      "syn": "礼儀",
+      "sr": "れいぎ",
+      "note": "行儀 thiên về hành vi cư xử; 礼儀 thiên về phép lịch sự.",
+      "ex": "食事中の行儀に気をつけよう。",
+      "vi": "Hãy chú ý cách cư xử khi ăn.",
+      "blank": "食事中の___に気をつけよう。",
+      "answer": "行儀"
+    }
+  ]
+}

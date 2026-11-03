@@ -1,0 +1,130 @@
+{
+  "chapter": 1,
+  "lesson": 2,
+  "title": "Bạn bè và người quen",
+  "source": "https://jtest.net/tu-vung-n3/chapter-1/section-2",
+  "reviewed": true,
+  "reviewNote": "Original authored example sentences; lexical entries cross-checked with source; further native-speaker review recommended.",
+  "words": [
+    {
+      "w": "親友",
+      "r": "しんゆう",
+      "m": "bạn thân",
+      "syn": "親しい友人",
+      "sr": "したしいゆうじん",
+      "note": "親友 chỉ tình bạn rất thân, sâu sắc.",
+      "ex": "困ったとき、親友が相談に乗ってくれた。",
+      "vi": "Khi tôi gặp khó khăn, bạn thân đã lắng nghe và tư vấn.",
+      "blank": "困ったとき、___が相談に乗ってくれた。",
+      "answer": "親友"
+    },
+    {
+      "w": "仲間",
+      "r": "なかま",
+      "m": "đồng đội, người cùng nhóm",
+      "syn": "チームの一員",
+      "sr": "チームのいちいん",
+      "note": "仲間 nhấn mạnh sự cùng tham gia một nhóm hoặc mục tiêu.",
+      "ex": "新しい仲間と一緒に大会に出る。",
+      "vi": "Tôi tham gia giải đấu cùng các đồng đội mới.",
+      "blank": "新しい___と一緒に大会に出る。",
+      "answer": "仲間"
+    },
+    {
+      "w": "仲良し",
+      "r": "なかよし",
+      "m": "thân thiết, hòa thuận",
+      "syn": "仲がいい",
+      "sr": "なかがいい",
+      "note": "仲良し thường nói về hai người hòa thuận, thân nhau.",
+      "ex": "二人は子どものころから仲良しだ。",
+      "vi": "Hai người thân nhau từ nhỏ.",
+      "blank": "二人は子どものころから___だ。",
+      "answer": "仲良し"
+    },
+    {
+      "w": "幼なじみ",
+      "r": "おさななじみ",
+      "m": "bạn thuở nhỏ",
+      "syn": "子どものころからの友人",
+      "sr": "こどものころからのゆうじん",
+      "note": "幼なじみ chỉ mối quan hệ quen biết từ nhỏ.",
+      "ex": "幼なじみから久しぶりに連絡が来た。",
+      "vi": "Bạn thuở nhỏ lâu rồi mới liên lạc.",
+      "blank": "___から久しぶりに連絡が来た。",
+      "answer": "幼なじみ"
+    },
+    {
+      "w": "友情",
+      "r": "ゆうじょう",
+      "m": "tình bạn",
+      "syn": "友達との絆",
+      "sr": "ともだちとのきずな",
+      "note": "友情 là tình cảm giữa bạn bè; 絆 nhấn mạnh sự gắn kết.",
+      "ex": "長い年月を経ても友情は続いている。",
+      "vi": "Tình bạn vẫn tiếp tục dù nhiều năm trôi qua.",
+      "blank": "長い年月を経ても___は続いている。",
+      "answer": "友情"
+    },
+    {
+      "w": "親しい",
+      "r": "したしい",
+      "m": "thân thiết",
+      "syn": "仲がいい",
+      "sr": "なかがいい",
+      "note": "親しい trang trọng hơn 仲がいい trong một số ngữ cảnh.",
+      "ex": "親しい友人に悩みを話した。",
+      "vi": "Tôi kể nỗi lo với người bạn thân.",
+      "blank": "___友人に悩みを話した。",
+      "answer": "親しい"
+    },
+    {
+      "w": "知人",
+      "r": "ちじん",
+      "m": "người quen",
+      "syn": "知り合い",
+      "sr": "しりあい",
+      "note": "知人 thường trang trọng hơn 知り合い.",
+      "ex": "知人を通じて新しい仕事を知った。",
+      "vi": "Tôi biết công việc mới qua người quen.",
+      "blank": "___を通じて新しい仕事を知った。",
+      "answer": "知人"
+    },
+    {
+      "w": "当時",
+      "r": "とうじ",
+      "m": "thời đó",
+      "syn": "そのころ",
+      "sr": "そのころ",
+      "note": "当時 chỉ một thời điểm trong quá khứ đã được xác định.",
+      "ex": "当時は日本語がほとんど話せなかった。",
+      "vi": "Hồi đó tôi gần như không nói được tiếng Nhật.",
+      "blank": "___は日本語がほとんど話せなかった。",
+      "answer": "当時"
+    },
+    {
+      "w": "祝う",
+      "r": "いわう",
+      "m": "chúc mừng",
+      "syn": "お祝いする",
+      "sr": "おいわいする",
+      "note": "祝う là động từ chúc mừng sự kiện vui.",
+      "ex": "日本語では「祝う」という言葉を使うことがあります。",
+      "vi": "Trong tiếng Nhật đôi khi người ta dùng từ 祝う.",
+      "blank": "日本語では「___」という言葉を使うことがあります。",
+      "answer": "祝う"
+    },
+    {
+      "w": "たまたま",
+      "r": "たまたま",
+      "m": "tình cờ",
+      "syn": "偶然",
+      "sr": "ぐうぜん",
+      "note": "たまたま mang sắc thái khẩu ngữ hơn 偶然.",
+      "ex": "駅でたまたま先輩に会った。",
+      "vi": "Tôi tình cờ gặp tiền bối ở ga.",
+      "blank": "駅で___先輩に会った。",
+      "answer": "たまたま"
+    }
+  ]
+}

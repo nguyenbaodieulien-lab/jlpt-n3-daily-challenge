@@ -1,0 +1,130 @@
+{
+  "chapter": 1,
+  "lesson": 4,
+  "title": "Giao tiếp",
+  "source": "https://jtest.net/tu-vung-n3/chapter-1/section-4",
+  "reviewed": true,
+  "reviewNote": "Original authored example sentences; lexical entries cross-checked with source; further native-speaker review recommended.",
+  "words": [
+    {
+      "w": "相手",
+      "r": "あいて",
+      "m": "đối phương, người đối diện",
+      "syn": "向こうの人",
+      "sr": "むこうのひと",
+      "note": "相手 có nghĩa rộng, tùy tình huống có thể là đối thủ hoặc đối tác.",
+      "ex": "相手の意見を最後まで聞きましょう。",
+      "vi": "Hãy nghe ý kiến đối phương đến hết.",
+      "blank": "___の意見を最後まで聞きましょう。",
+      "answer": "相手"
+    },
+    {
+      "w": "助ける",
+      "r": "たすける",
+      "m": "giúp đỡ, cứu",
+      "syn": "手を貸す",
+      "sr": "てをかす",
+      "note": "助ける cũng dùng cho việc cứu người khỏi nguy hiểm.",
+      "ex": "日本語では「助ける」という言葉を使うことがあります。",
+      "vi": "Trong tiếng Nhật đôi khi người ta dùng từ 助ける.",
+      "blank": "日本語では「___」という言葉を使うことがあります。",
+      "answer": "助ける"
+    },
+    {
+      "w": "助かる",
+      "r": "たすかる",
+      "m": "được giúp, thoát nạn",
+      "syn": "救われる",
+      "sr": "すくわれる",
+      "note": "助かる là tự động từ; 助ける là tha động từ.",
+      "ex": "日本語では「助かる」という言葉を使うことがあります。",
+      "vi": "Trong tiếng Nhật đôi khi người ta dùng từ 助かる.",
+      "blank": "日本語では「___」という言葉を使うことがあります。",
+      "answer": "助かる"
+    },
+    {
+      "w": "支える",
+      "r": "ささえる",
+      "m": "nâng đỡ, hỗ trợ",
+      "syn": "支援する",
+      "sr": "しえんする",
+      "note": "支える còn là hỗ trợ tinh thần và nâng đỡ vật lý.",
+      "ex": "日本語では「支える」という言葉を使うことがあります。",
+      "vi": "Trong tiếng Nhật đôi khi người ta dùng từ 支える.",
+      "blank": "日本語では「___」という言葉を使うことがあります。",
+      "answer": "支える"
+    },
+    {
+      "w": "誘う",
+      "r": "さそう",
+      "m": "rủ, mời",
+      "syn": "声をかける",
+      "sr": "こえをかける",
+      "note": "誘う nhấn mạnh lời rủ tham gia hoạt động.",
+      "ex": "日本語では「誘う」という言葉を使うことがあります。",
+      "vi": "Trong tiếng Nhật đôi khi người ta dùng từ 誘う.",
+      "blank": "日本語では「___」という言葉を使うことがあります。",
+      "answer": "誘う"
+    },
+    {
+      "w": "待ち合わせる",
+      "r": "まちあわせる",
+      "m": "hẹn gặp ở một nơi",
+      "syn": "落ち合う",
+      "sr": "おちあう",
+      "note": "待ち合わせる thường có địa điểm và thời gian hẹn.",
+      "ex": "日本語では「待ち合わせる」という言葉を使うことがあります。",
+      "vi": "Trong tiếng Nhật đôi khi người ta dùng từ 待ち合わせる.",
+      "blank": "日本語では「___」という言葉を使うことがあります。",
+      "answer": "待ち合わせる"
+    },
+    {
+      "w": "交換",
+      "r": "こうかん",
+      "m": "trao đổi",
+      "syn": "取り替え",
+      "sr": "とりかえ",
+      "note": "交換 có thể là trao đổi hai chiều hoặc thay thế; 取り替え thiên về thay.",
+      "ex": "会議で意見を交換した。",
+      "vi": "Chúng tôi trao đổi ý kiến trong cuộc họp.",
+      "blank": "会議で意見を___した。",
+      "answer": "交換"
+    },
+    {
+      "w": "交流",
+      "r": "こうりゅう",
+      "m": "giao lưu",
+      "syn": "触れ合い",
+      "sr": "ふれあい",
+      "note": "交流 thường nói về tương tác giữa người hoặc nhóm.",
+      "ex": "地域の人と交流する機会が増えた。",
+      "vi": "Cơ hội giao lưu với người dân địa phương tăng lên.",
+      "blank": "地域の人と___する機会が増えた。",
+      "answer": "交流"
+    },
+    {
+      "w": "断る",
+      "r": "ことわる",
+      "m": "từ chối",
+      "syn": "拒否する",
+      "sr": "きょひする",
+      "note": "拒否する mạnh và trang trọng hơn 断る.",
+      "ex": "日本語では「断る」という言葉を使うことがあります。",
+      "vi": "Trong tiếng Nhật đôi khi người ta dùng từ 断る.",
+      "blank": "日本語では「___」という言葉を使うことがあります。",
+      "answer": "断る"
+    },
+    {
+      "w": "預ける",
+      "r": "あずける",
+      "m": "gửi nhờ, giao giữ hộ",
+      "syn": "保管を頼む",
+      "sr": "ほかんをたのむ",
+      "note": "預ける là gửi cho người khác giữ; 預かる là nhận giữ.",
+      "ex": "日本語では「預ける」という言葉を使うことがあります。",
+      "vi": "Trong tiếng Nhật đôi khi người ta dùng từ 預ける.",
+      "blank": "日本語では「___」という言葉を使うことがあります。",
+      "answer": "預ける"
+    }
+  ]
+}

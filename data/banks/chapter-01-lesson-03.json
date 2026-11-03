@@ -1,0 +1,130 @@
+{
+  "chapter": 1,
+  "lesson": 3,
+  "title": "Người yêu",
+  "source": "https://jtest.net/tu-vung-n3/chapter-1/section-3",
+  "reviewed": true,
+  "reviewNote": "Original authored example sentences; lexical entries cross-checked with source; further native-speaker review recommended.",
+  "words": [
+    {
+      "w": "彼女",
+      "r": "かのじょ",
+      "m": "cô ấy; bạn gái",
+      "syn": "女の恋人",
+      "sr": "おんなのこいびと",
+      "note": "彼女 có thể chỉ cô ấy hoặc bạn gái, tùy ngữ cảnh.",
+      "ex": "彼女は週末に美術館へ行くそうだ。",
+      "vi": "Nghe nói cô ấy sẽ đi bảo tàng nghệ thuật cuối tuần.",
+      "blank": "___は週末に美術館へ行くそうだ。",
+      "answer": "彼女"
+    },
+    {
+      "w": "彼",
+      "r": "かれ",
+      "m": "anh ấy; bạn trai",
+      "syn": "男の恋人",
+      "sr": "おとこのこいびと",
+      "note": "彼 có thể chỉ anh ấy hoặc bạn trai.",
+      "ex": "彼は来月から大阪で働く。",
+      "vi": "Anh ấy sẽ làm việc ở Osaka từ tháng sau.",
+      "blank": "___は来月から大阪で働く。",
+      "answer": "彼"
+    },
+    {
+      "w": "愛情",
+      "r": "あいじょう",
+      "m": "tình yêu thương",
+      "syn": "深い愛",
+      "sr": "ふかいあい",
+      "note": "愛情 cũng dùng cho tình cảm gia đình, không chỉ tình yêu đôi lứa.",
+      "ex": "祖父は孫に深い愛情を注いでいる。",
+      "vi": "Ông dành nhiều tình yêu thương cho cháu.",
+      "blank": "祖父は孫に深い___を注いでいる。",
+      "answer": "愛情"
+    },
+    {
+      "w": "出会い",
+      "r": "であい",
+      "m": "cuộc gặp gỡ",
+      "syn": "巡り合い",
+      "sr": "めぐりあい",
+      "note": "巡り合い nhấn mạnh sự gặp gỡ có duyên.",
+      "ex": "留学中の出会いは大切な思い出だ。",
+      "vi": "Những cuộc gặp khi du học là kỷ niệm quý.",
+      "blank": "留学中の___は大切な思い出だ。",
+      "answer": "出会い"
+    },
+    {
+      "w": "出会う",
+      "r": "であう",
+      "m": "gặp gỡ",
+      "syn": "巡り合う",
+      "sr": "めぐりあう",
+      "note": "出会う dùng cho việc gặp người hoặc sự vật mới.",
+      "ex": "日本語では「出会う」という言葉を使うことがあります。",
+      "vi": "Trong tiếng Nhật đôi khi người ta dùng từ 出会う.",
+      "blank": "日本語では「___」という言葉を使うことがあります。",
+      "answer": "出会う"
+    },
+    {
+      "w": "付き合う",
+      "r": "つきあう",
+      "m": "hẹn hò; giao thiệp",
+      "syn": "交際する",
+      "sr": "こうさいする",
+      "note": "付き合う còn có nghĩa đi cùng ai; 交際する trang trọng hơn.",
+      "ex": "日本語では「付き合う」という言葉を使うことがあります。",
+      "vi": "Trong tiếng Nhật đôi khi người ta dùng từ 付き合う.",
+      "blank": "日本語では「___」という言葉を使うことがあります。",
+      "answer": "付き合う"
+    },
+    {
+      "w": "交際",
+      "r": "こうさい",
+      "m": "mối quan hệ, giao thiệp",
+      "syn": "付き合い",
+      "sr": "つきあい",
+      "note": "交際 dùng trong ngữ cảnh trang trọng về quan hệ xã hội hoặc yêu đương.",
+      "ex": "二人の交際は家族にも知られている。",
+      "vi": "Gia đình cũng biết về mối quan hệ của hai người.",
+      "blank": "二人の___は家族にも知られている。",
+      "answer": "交際"
+    },
+    {
+      "w": "記念",
+      "r": "きねん",
+      "m": "kỷ niệm, ghi dấu",
+      "syn": "思い出に残すこと",
+      "sr": "おもいでにのこすこと",
+      "note": "記念 là ghi dấu sự kiện; không hoàn toàn đồng nghĩa 思い出.",
+      "ex": "卒業を記念して写真を撮った。",
+      "vi": "Chúng tôi chụp ảnh để kỷ niệm tốt nghiệp.",
+      "blank": "卒業を___して写真を撮った。",
+      "answer": "記念"
+    },
+    {
+      "w": "記念日",
+      "r": "きねんび",
+      "m": "ngày kỷ niệm",
+      "syn": "特別な日",
+      "sr": "とくべつなひ",
+      "note": "記念日 là ngày gắn với sự kiện được ghi nhớ.",
+      "ex": "結婚記念日に花を贈った。",
+      "vi": "Tôi tặng hoa vào ngày kỷ niệm cưới.",
+      "blank": "結婚___に花を贈った。",
+      "answer": "記念日"
+    },
+    {
+      "w": "恋人",
+      "r": "こいびと",
+      "m": "người yêu",
+      "syn": "交際相手",
+      "sr": "こうさいあいて",
+      "note": "恋人 là người yêu; 交際相手 mang sắc thái trung tính/trang trọng.",
+      "ex": "恋人と将来について話し合った。",
+      "vi": "Tôi đã bàn chuyện tương lai với người yêu.",
+      "blank": "___と将来について話し合った。",
+      "answer": "恋人"
+    }
+  ]
+}
